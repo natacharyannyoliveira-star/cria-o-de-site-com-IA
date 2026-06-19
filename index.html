@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Motorcycle Showcase</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+<header>
+  <h1>🏍️ Motorcycle Showcase</h1>
+  <p>Explore diferentes estilos de motos</p>
+</header>
+
+<section class="filters">
+  <button onclick="filterMotos('all')">Todas</button>
+  <button onclick="filterMotos('sport')">Esportivas</button>
+  <button onclick="filterMotos('cruiser')">Cruiser</button>
+  <button onclick="filterMotos('offroad')">Off-road</button>
+</section>
+
+<section id="moto-list" class="moto-list">
+
+  <div class="card sport">
+    <img src="https://images.unsplash.com/photo-1558981806-ec527fa84c39" />
+    <h3>Yamaha R1</h3>
+  </div>
+
+  <div class="card cruiser">
+    <img src="https://images.unsplash.com/photo-1558980664-10c2f0b1a7b0" />
+    <h3>Harley Davidson</h3>
+  </div>
+
+  <div class="card offroad">
+    <img src="https://images.unsplash.com/photo-1525104885119-8807e2c7a2d6" />
+    <h3>KTM Off-road</h3>
+  </div>
+
+  <div class="card sport">
+    <img src="https://images.unsplash.com/photo-1609630875171-b1321377ee65" />
+    <h3>BMW S1000RR</h3>
+  </div>
+
+</section>
+
+<footer>
+  <p>Projeto simples para GitHub • Feito com HTML, CSS e JS</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
